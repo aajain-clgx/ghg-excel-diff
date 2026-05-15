@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+*.egg-info/
+dist/*.zip
+
+# pytest
+.pytest_cache/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+*.swp
+
+# Streamlit
+.streamlit/
+
+# Sidecar annotation files (generated at runtime)
+*.ghg_qa_sidecar.json
+qa_run_*.json
+
+# Internal Copilot/BMad framework files (not part of the distributed tool)
+.github/skills/
+_bmad/
+_bmad-output/
